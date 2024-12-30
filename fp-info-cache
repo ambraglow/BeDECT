@@ -1,4 +1,4 @@
-24417044106514945
+24418779695803747
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98594,6 +98594,13 @@ Varistor VF
 0
 2
 2
+beepis
+1TS003A-1800-3500A-CT
+
+
+0
+3
+3
 beepis
 BepisAddon_v1
 Through hole straight pin header, 1x23, 2.54mm pitch, single row
