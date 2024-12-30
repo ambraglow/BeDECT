@@ -4365,6 +4365,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 83.82) (xy 203.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b42f2b-f107-45cb-a936-dffdb424170a")
+	)
+	(wire
+		(pts
 			(xy 246.38 135.89) (xy 243.84 135.89)
 		)
 		(stroke
@@ -4825,6 +4835,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 91.44) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d60f7e1-9e77-493d-aecc-bdf2cac1705b")
+	)
+	(wire
+		(pts
 			(xy 179.07 118.11) (xy 179.07 116.84)
 		)
 		(stroke
@@ -5052,6 +5072,16 @@
 			(type default)
 		)
 		(uuid "c097faeb-1ec4-4bc6-ab3e-4a3a82ee8e23")
+	)
+	(wire
+		(pts
+			(xy 191.77 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b100f0-417a-4466-bb5a-1a410a685093")
 	)
 	(wire
 		(pts
@@ -5419,6 +5449,17 @@
 		)
 		(uuid "82b0c264-c6e4-4d9f-8448-348b2e611396")
 	)
+	(label "Pi_GPIO24"
+		(at 203.2 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9397097b-5940-48b5-8be9-a9a159da265d")
+	)
 	(label "Pi_GPIO14"
 		(at 166.37 118.11 180)
 		(fields_autoplaced yes)
@@ -5441,6 +5482,17 @@
 		)
 		(uuid "ba54e048-a1f7-4753-8d86-7bcd26ed8e48")
 	)
+	(label "Pi_GPIO23"
+		(at 203.2 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7c5f3b8-2ee3-4985-b432-84051ee725b7")
+	)
 	(label "Pi_GPIO25"
 		(at 179.07 130.81 0)
 		(fields_autoplaced yes)
@@ -5451,6 +5503,17 @@
 			(justify left bottom)
 		)
 		(uuid "cc319cd7-cc4e-4737-967c-5e9e51aff426")
+	)
+	(label "Pi_GPIO22"
+		(at 203.2 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de50fff8-9aba-465f-9a0b-0f9898df3c9a")
 	)
 	(label "Pi_SDA"
 		(at 254 111.76 0)
@@ -5746,6 +5809,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 186.69 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13e15097-55a9-440b-8e35-f5d2e182157e")
+		(property "Reference" "SW2"
+			(at 186.69 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx70"
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef28e828-b114-432d-b653-5dcbdf72d8d3")
+		)
+		(pin "1"
+			(uuid "d0529fa2-f741-4719-bcfb-bf601a4d0c47")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 250.19 135.89 180)
 		(unit 1)
@@ -6010,6 +6141,74 @@
 			(project ""
 				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 181.61 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22500690-53c8-4937-a6f4-9b64fc2a60d8")
+		(property "Reference" "#PWR023"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "807fe70b-7c6f-4f17-b42a-c2133813e827")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6629,6 +6828,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 186.69 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5572d5cc-15d4-4afc-a320-af1241fd7b02")
+		(property "Reference" "SW4"
+			(at 186.69 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx70"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 186.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0580556-178d-498a-8236-513ad12676fd")
+		)
+		(pin "1"
+			(uuid "c98ca6d4-4c19-4123-8c1b-ba647ce5586c")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 341.63 77.47 0)
 		(unit 1)
@@ -7024,6 +7291,74 @@
 			(project "BeDECT"
 				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 181.61 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "712abc90-8c59-45e3-b848-2361fdc8ef0d")
+		(property "Reference" "#PWR022"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "589978c4-41d7-48af-9f06-8b160dc5fbe9")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8572,6 +8907,142 @@
 			(project ""
 				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
 					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 181.61 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c50c0a10-2239-49a4-a0d1-f63228601358")
+		(property "Reference" "#PWR024"
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "744c63ab-0451-4974-b419-b80235dbe718")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 186.69 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d103507a-aab0-4512-96e8-9213d7b4afb5")
+		(property "Reference" "SW3"
+			(at 186.69 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx70"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be35aa92-cc4f-48ac-a8d6-6a8231c50c8a")
+		)
+		(pin "1"
+			(uuid "d371268b-9438-4cf0-9ff5-3ee396f119db")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
