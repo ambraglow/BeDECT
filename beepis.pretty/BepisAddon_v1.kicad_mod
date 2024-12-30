@@ -412,27 +412,4 @@
 		(remove_unused_layers no)
 		(uuid "2f279e7a-5592-4752-9f96-9454ccd4cfbf")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x23_P2.54mm_Vertical.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x23_P2.54mm_Horizontal.step"
-		(offset
-			(xyz 0 -56 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 -180)
-		)
-	)
 )
