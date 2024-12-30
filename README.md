@@ -6,5 +6,5 @@ TODO:
 - figure out speaker vs separate jack vs combo
 
 
-![top](<github_username>.github.io/BeDECT/top.png)
-![bottom](<github_username>.github.io/BeDECT/bottom.png)
+![top](bassusteur.github.io/BeDECT/top.png)
+![bottom](bassusteur.github.io/BeDECT/bottom.png)
