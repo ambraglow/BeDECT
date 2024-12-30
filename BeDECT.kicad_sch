@@ -4134,6 +4134,12 @@
 		(uuid "00f51ae0-72b0-43de-8c25-03bc7fda3f75")
 	)
 	(junction
+		(at 193.04 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0264e41a-924d-496f-a788-e83e3c3571d0")
+	)
+	(junction
 		(at 365.76 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4162,6 +4168,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33b94040-a682-4e9d-a935-86447b64e812")
+	)
+	(junction
+		(at 162.56 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "453bc1c5-80b6-4cca-a71c-d67c73de9a3d")
 	)
 	(junction
 		(at 237.49 135.89)
@@ -4198,6 +4210,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92bbb6f4-25a5-4c81-b2a8-50586512c09b")
+	)
+	(junction
+		(at 134.62 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93038fbb-ab99-4544-a54e-34d669175756")
 	)
 	(junction
 		(at 326.39 114.3)
@@ -4365,7 +4383,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 83.82) (xy 203.2 83.82)
+			(xy 133.35 77.47) (xy 134.62 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4482,6 +4500,16 @@
 			(type default)
 		)
 		(uuid "1a9ae864-97d5-459a-8eed-bbfca4ddb0fc")
+	)
+	(wire
+		(pts
+			(xy 193.04 74.93) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2e5d5d-504f-49a8-9c2d-62ccfe435a8e")
 	)
 	(wire
 		(pts
@@ -4835,7 +4863,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 91.44) (xy 203.2 91.44)
+			(xy 161.29 77.47) (xy 162.56 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4985,6 +5013,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 76.2) (xy 162.56 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a199101a-72db-43ac-bb0f-db095eeef16f")
+	)
+	(wire
+		(pts
 			(xy 289.56 45.72) (xy 289.56 50.8)
 		)
 		(stroke
@@ -4992,6 +5030,16 @@
 			(type default)
 		)
 		(uuid "a6185797-7ad0-4ced-970a-ca956e42c205")
+	)
+	(wire
+		(pts
+			(xy 162.56 77.47) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7bd61f-7b9e-44be-8153-a615ccbea22d")
 	)
 	(wire
 		(pts
@@ -5022,6 +5070,16 @@
 			(type default)
 		)
 		(uuid "b77c18a5-a0c1-4663-b02e-dee72fca4fc0")
+	)
+	(wire
+		(pts
+			(xy 193.04 76.2) (xy 207.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d1735d-220c-416b-b4ae-7dca70f3c5d1")
 	)
 	(wire
 		(pts
@@ -5075,7 +5133,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 76.2) (xy 203.2 76.2)
+			(xy 191.77 76.2) (xy 193.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5235,6 +5293,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 77.47) (xy 148.59 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e96e4f-73d3-491f-a745-5e149019b497")
+	)
+	(wire
+		(pts
 			(xy 360.68 73.66) (xy 360.68 76.2)
 		)
 		(stroke
@@ -5272,6 +5340,16 @@
 			(type default)
 		)
 		(uuid "f3a1e1c1-76f0-4577-97cd-256e06fd19a9")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 134.62 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46f179e-6e8d-444c-a84f-ad0b6a606ee5")
 	)
 	(label "Pi_GPIO11"
 		(at 166.37 133.35 180)
@@ -5450,7 +5528,7 @@
 		(uuid "82b0c264-c6e4-4d9f-8448-348b2e611396")
 	)
 	(label "Pi_GPIO24"
-		(at 203.2 91.44 180)
+		(at 176.53 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5483,7 +5561,7 @@
 		(uuid "ba54e048-a1f7-4753-8d86-7bcd26ed8e48")
 	)
 	(label "Pi_GPIO23"
-		(at 203.2 83.82 180)
+		(at 148.59 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5505,7 +5583,7 @@
 		(uuid "cc319cd7-cc4e-4737-967c-5e9e51aff426")
 	)
 	(label "Pi_GPIO22"
-		(at 203.2 76.2 180)
+		(at 207.01 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5743,6 +5821,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 193.04 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ff791b9-66a1-494b-b4fb-4f79860f6a64")
+		(property "Reference" "#PWR025"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3PI"
+			(at 193.04 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 193.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16967035-3c82-4116-8a19-0aa364cd577f")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 334.01 113.03 0)
 		(unit 1)
@@ -5871,6 +6015,72 @@
 			(project "BeDECT"
 				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 162.56 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "142b8ff7-fb64-429f-bd2f-eda82e02a313")
+		(property "Reference" "#PWR026"
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3PI"
+			(at 162.56 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b432363-62fc-4d53-b049-5b7171dea5f0")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6149,7 +6359,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 181.61 83.82 0)
+		(at 123.19 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6158,7 +6368,7 @@
 		(fields_autoplaced yes)
 		(uuid "22500690-53c8-4937-a6f4-9b64fc2a60d8")
 		(property "Reference" "#PWR023"
-			(at 181.61 90.17 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +6377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 88.9 0)
+			(at 123.19 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +6386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 83.82 0)
+			(at 123.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 83.82 0)
+			(at 123.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 83.82 0)
+			(at 123.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,6 +6902,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 134.62 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f5df8ff-640d-493d-979c-a79a4e4cc9b3")
+		(property "Reference" "#PWR027"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3PI"
+			(at 134.62 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c56502f-0a1d-4abd-b5b3-f67cf9362c64")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 179.07 109.22 90)
 		(mirror x)
@@ -6753,6 +7029,76 @@
 			(project "BeDECT"
 				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d1624a-debb-4745-9d1a-a762474f4b0e")
+		(property "Reference" "R13"
+			(at 137.16 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5K1"
+			(at 137.16 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 136.398 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec166a24-b080-45f5-8c56-0daf2bba28af")
+		)
+		(pin "1"
+			(uuid "caf7f6c6-036f-4c7b-824e-172b13dcd849")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6829,7 +7175,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 186.69 91.44 0)
+		(at 156.21 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6837,7 +7183,7 @@
 		(dnp no)
 		(uuid "5572d5cc-15d4-4afc-a320-af1241fd7b02")
 		(property "Reference" "SW4"
-			(at 186.69 86.868 0)
+			(at 156.21 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6845,7 +7191,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 186.69 86.36 0)
+			(at 156.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6854,7 +7200,7 @@
 			)
 		)
 		(property "Footprint" "beepis:1TS003A-1800-3500A-CT"
-			(at 186.69 86.36 0)
+			(at 156.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,7 +7209,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 86.36 0)
+			(at 156.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,7 +7218,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 186.69 91.44 0)
+			(at 156.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7429,6 +7775,76 @@
 			(project "BeDECT"
 				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73f7cc7f-a64c-4292-aa50-e4ee2ede5693")
+		(property "Reference" "R11"
+			(at 195.58 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5K1"
+			(at 195.58 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 194.818 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4b7f8a2-32e7-480d-9fb6-6cb00752b6a7")
+		)
+		(pin "1"
+			(uuid "6a48e63d-53f8-40f6-90cd-86860955e142")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8915,7 +9331,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 181.61 91.44 0)
+		(at 151.13 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8924,7 +9340,7 @@
 		(fields_autoplaced yes)
 		(uuid "c50c0a10-2239-49a4-a0d1-f63228601358")
 		(property "Reference" "#PWR024"
-			(at 181.61 97.79 0)
+			(at 151.13 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +9349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 96.52 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +9358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 91.44 0)
+			(at 151.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +9367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 91.44 0)
+			(at 151.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +9376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 91.44 0)
+			(at 151.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,33 +9397,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 186.69 83.82 0)
+		(lib_id "Device:R")
+		(at 162.56 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d103507a-aab0-4512-96e8-9213d7b4afb5")
-		(property "Reference" "SW3"
-			(at 186.69 79.248 0)
+		(fields_autoplaced yes)
+		(uuid "cd384702-1ef4-49c1-b96c-050750550a25")
+		(property "Reference" "R12"
+			(at 165.1 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 186.69 78.74 0)
+		(property "Value" "5K1"
+			(at 165.1 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Footprint" "beepis:1TS003A-1800-3500A-CT"
-			(at 186.69 78.74 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 164.338 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9434,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 78.74 0)
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7327663-30c3-4f52-b3a2-1b5d15d89860")
+		)
+		(pin "1"
+			(uuid "98e4b6fc-84bc-47b2-b1b9-80c9649bb663")
+		)
+		(instances
+			(project "BeDECT"
+				(path "/eb2713c5-b07c-450a-8da5-1de9bd273636"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 128.27 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d103507a-aab0-4512-96e8-9213d7b4afb5")
+		(property "Reference" "SW3"
+			(at 128.27 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "beepis:1TS003A-1800-3500A-CT"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +9511,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 186.69 83.82 0)
+			(at 128.27 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
