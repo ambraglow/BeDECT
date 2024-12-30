@@ -5834,7 +5834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx70"
+		(property "Footprint" "beepis:1TS003A-1800-3500A-CT"
 			(at 186.69 71.12 0)
 			(effects
 				(font
@@ -6853,7 +6853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx70"
+		(property "Footprint" "beepis:1TS003A-1800-3500A-CT"
 			(at 186.69 86.36 0)
 			(effects
 				(font
@@ -9006,7 +9006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx70"
+		(property "Footprint" "beepis:1TS003A-1800-3500A-CT"
 			(at 186.69 78.74 0)
 			(effects
 				(font
