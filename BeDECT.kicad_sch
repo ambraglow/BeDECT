@@ -6579,7 +6579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3n"
+		(property "Value" "30p"
 			(at 368.3 74.9362 0)
 			(effects
 				(font
