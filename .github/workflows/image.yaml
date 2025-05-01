@@ -14,6 +14,7 @@ jobs:
         with:
           pcb_file: ./BeDECT.kicad_pcb
           output_path: ${{ github.workspace }}/images
+          background: transparent
           animation: gif
         
       - name: Setup Pages
