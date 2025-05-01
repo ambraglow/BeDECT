@@ -14,7 +14,6 @@ jobs:
         with:
           pcb_file: ./BeDECT.kicad_pcb
           output_path: ${{ github.workspace }}/images
-          background: transparent
           animation: gif
         
       - name: Setup Pages
@@ -23,7 +22,7 @@ jobs:
 
       - name: Upload Artifact
         if: github.ref == 'refs/heads/main'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
           path: "images"
 
