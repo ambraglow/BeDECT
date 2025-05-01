@@ -1,8 +1,8 @@
 # BeDect
 DECT expansion board for [beepis](https://gitlab.com/linalinn/bepis)
 
-![top](https://bassusteur.github.io/BeDECT/top.png)
-![bottom](https://bassusteur.github.io/BeDECT/bottom.png)
+![top](https://ambraglow.github.io/BeDECT/top.png)
+![bottom](https://ambraglow.github.io/BeDECT/bottom.png)
 
 ## TODO:
 - Add buttons
