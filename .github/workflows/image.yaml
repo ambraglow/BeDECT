@@ -8,8 +8,15 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
-
+        
       - name: render pcb image
+        uses: linalinn/kicad-render@main
+        with:
+          pcb_file: ./BeDECT.kicad_pcb
+          output_path: ${{ github.workspace }}/images
+          background: transparent
+        
+      - name: render gif
         uses: linalinn/kicad-render@main
         with:
           pcb_file: ./BeDECT.kicad_pcb
